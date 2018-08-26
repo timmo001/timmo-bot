@@ -59,5 +59,14 @@
       "first-pr-merge",
       "wip-bot"
     ]
+  },
+  "now": {
+    "alias": "timmo-bot",
+    "env": {
+      "APP_ID": "@app-id",
+      "NODE_ENV": "production",
+      "PRIVATE_KEY": "@private-key",
+      "WEBHOOK_SECRET": "@webhook-secret"
+    }
   }
 }
