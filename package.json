@@ -15,7 +15,8 @@
   "scripts": {
     "dev": "nodemon --exec \"npm run start-probot\"",
     "start-probot": "probot run",
-    "start": "PRIVATE_KEY=$(echo $PRIVATE_KEY | base64 -d) probot run"
+    "start": "PRIVATE_KEY=$(echo $PRIVATE_KEY | base64 -d) probot run",
+    "now-start": "PRIVATE_KEY=$(echo $PRIVATE_KEY_BASE64 | base64 -d) npm start"
   },
   "dependencies": {
     "invite-contributors": "erickzhao/invite-contributors",
