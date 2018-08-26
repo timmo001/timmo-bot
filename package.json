@@ -59,8 +59,5 @@
       "first-pr-merge",
       "wip-bot"
     ]
-  },
-  "now": {
-    "alias": "timmo-bot"
   }
 }
