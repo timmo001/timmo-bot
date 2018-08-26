@@ -15,7 +15,8 @@
   "scripts": {
     "dev": "nodemon --exec \"npm run start-probot\"",
     "start-probot": "probot run",
-    "start": "PRIVATE_KEY=$(echo $PRIVATE_KEY | base64 -d) probot run"
+    "start": "PRIVATE_KEY=$(echo $PRIVATE_KEY | base64 -d) probot run",
+    "now-start": "PRIVATE_KEY=$(echo $PRIVATE_KEY_BASE64 | base64 -d) npm start"
   },
   "dependencies": {
     "invite-contributors": "erickzhao/invite-contributors",
@@ -24,10 +25,9 @@
     "potential-duplicates-bot": "Bartozzz/potential-duplicates-bot",
     "probot": "^7.0.0",
     "probot-autolabeler": "probot/autolabeler",
-    "probot-config": "^0.1.0",
-    "probot-labeler": "probot/autolabeler",
+    "probot-config": "^0.2.0",
     "probot-no-response": "probot/no-response",
-    "probot-settings": "frenck/probot-settings",
+    "probot-settings": "probot/settings",
     "probot-stale": "probot/stale",
     "request-info": "behaviorbot/request-info",
     "support-requests": "dessant/support-requests",
@@ -50,6 +50,7 @@
       "probot-no-response",
       "probot-settings",
       "probot-stale",
+      "probot-autolabeler",
       "unfurl",
       "request-info",
       "support-requests/src",
@@ -60,12 +61,6 @@
     ]
   },
   "now": {
-    "alias": "addons-assistant",
-    "env": {
-      "APP_ID": "@app-id",
-      "NODE_ENV": "production",
-      "PRIVATE_KEY": "@private-key",
-      "WEBHOOK_SECRET": "@webhook-secret"
-    }
+    "alias": "timmo-bot"
   }
 }

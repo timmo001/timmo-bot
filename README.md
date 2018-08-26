@@ -7,7 +7,7 @@
 
 ## About
 
-Community Hass.io Add-ons Assistant is a bot that helps the project by
+Timmo Bot is a bot that helps the project by
 doing all kind of administrative tasks on our PR' and issues.
 
 This app was created using [Probot][probot].

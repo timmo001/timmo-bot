@@ -16,7 +16,7 @@ labels:
   # Priority labels
   - name: "Priority: Critical"
     color: ee0701
-    description: "This should be dealt with ASAP. Not fixing this issue would be a serious error."
+    description: "This should be dealt with ASAP. This issue is critical."
     oldname: "Critical Priority"
   - name: "Priority: High"
     color: b60205
@@ -28,7 +28,7 @@ labels:
     oldname: "Medium Priority"
   - name: "Priority: Low"
     color: e4ea8a
-    description: "Nice addition, maybe... someday..."
+    description: "Low priotity issue."
     oldname: "Low Priority"
 
   # Type labels
