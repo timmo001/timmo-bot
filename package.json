@@ -28,7 +28,7 @@
     "probot-config": "^0.1.0",
     "probot-labeler": "probot/autolabeler",
     "probot-no-response": "probot/no-response",
-    "probot-settings": "frenck/probot-settings",
+    "probot-settings": "probot/probot-settings",
     "probot-stale": "probot/stale",
     "request-info": "behaviorbot/request-info",
     "support-requests": "dessant/support-requests",
