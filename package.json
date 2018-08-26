@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Timmo Probot",
   "author": "Timmo <contact@timmo.xyz> (https://git.timmo.xyz)",
-  "license": "ISC",
+  "license": "MIT",
   "repository": "https://github.com/timmo001/timmo-bot.git",
   "homepage": "https://github.com/timmo001/timmo-bot",
   "bugs": "https://github.com/timmo001/timmo-bot/issues",
@@ -13,14 +13,13 @@
     "probot-app"
   ],
   "scripts": {
-    "dev": "nodemon",
-    "start": "probot run ./index.js",
-    "lint": "standard --fix",
-    "test": "jest && standard",
-    "test:watch": "jest --watch --notify --notifyMode=change --coverage"
+    "dev": "nodemon --exec \"npm run start-probot\"",
+    "start-probot": "probot run",
+    "start": "PRIVATE_KEY=$(echo $PRIVATE_KEY | base64 -d) probot run"
   },
   "dependencies": {
-    "probot": "^7.0.0"
+    "probot": "^7.0.0",
+    "wip-bot": "^2.4.2"
   },
   "devDependencies": {
     "jest": "^22.4.3",

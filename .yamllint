@@ -1,0 +1,8 @@
+---
+extends: default
+
+rules:
+  line-length:
+    ignore: |
+      .gitlab-ci.yml
+    level: warning
