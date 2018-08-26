@@ -27,19 +27,18 @@
     "smee-client": "^1.0.2",
     "standard": "^10.0.3"
   },
-  "engines": {
-    "node": ">= 8.3.0"
-  },
-  "standard": {
-    "env": [
-      "jest"
+  "probot": {
+    "apps": [
+      "wip-bot"
     ]
   },
-  "nodemonConfig": {
-    "exec": "npm start",
-    "watch": [
-      ".env",
-      "."
-    ]
+  "now": {
+    "alias": "addons-assistant",
+    "env": {
+      "APP_ID": "@app-id",
+      "NODE_ENV": "production",
+      "PRIVATE_KEY": "@private-key",
+      "WEBHOOK_SECRET": "@webhook-secret"
+    }
   }
 }
