@@ -23,9 +23,9 @@
     "lock-threads": "dessant/lock-threads",
     "move-issues": "dessant/move-issues",
     "potential-duplicates-bot": "Bartozzz/potential-duplicates-bot",
-    "probot": "^7.0.0",
+    "probot": "7.1.0",
     "probot-autolabeler": "probot/autolabeler",
-    "probot-config": "^0.2.0",
+    "probot-config": "0.2.0",
     "probot-no-response": "probot/no-response",
     "probot-settings": "probot/settings",
     "probot-stale": "probot/stale",
@@ -36,10 +36,10 @@
     "wip-bot": "gr2m/wip-bot"
   },
   "devDependencies": {
-    "jest": "^22.4.3",
-    "nodemon": "^1.17.2",
-    "smee-client": "^1.0.2",
-    "standard": "^10.0.3"
+    "jest": "22.4.4",
+    "nodemon": "1.18.3",
+    "smee-client": "1.0.2",
+    "standard": "10.0.3"
   },
   "probot": {
     "apps": [
