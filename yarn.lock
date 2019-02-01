@@ -3356,18 +3356,18 @@ jest-worker@^22.2.2, jest-worker@^22.4.3:
   dependencies:
     merge-stream "^1.0.1"
 
-jest@^21.2.1:
-  version "21.2.1"
-  resolved "https://registry.yarnpkg.com/jest/-/jest-21.2.1.tgz#c964e0b47383768a1438e3ccf3c3d470327604e1"
-  dependencies:
-    jest-cli "^21.2.1"
-
-jest@^22.4.3:
+jest@22.4.4:
   version "22.4.4"
   resolved "https://registry.yarnpkg.com/jest/-/jest-22.4.4.tgz#ffb36c9654b339a13e10b3d4b338eb3e9d49f6eb"
   dependencies:
     import-local "^1.0.0"
     jest-cli "^22.4.4"
+
+jest@^21.2.1:
+  version "21.2.1"
+  resolved "https://registry.yarnpkg.com/jest/-/jest-21.2.1.tgz#c964e0b47383768a1438e3ccf3c3d470327604e1"
+  dependencies:
+    jest-cli "^21.2.1"
 
 joi@^13.1.2, joi@^13.3.0, joi@^13.4.0:
   version "13.6.0"
@@ -4068,7 +4068,7 @@ node-pre-gyp@^0.10.0:
     semver "^5.3.0"
     tar "^4"
 
-nodemon@^1.17.2:
+nodemon@1.18.3:
   version "1.18.3"
   resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-1.18.3.tgz#46e681ee0dd1b590562e03019b4c5df234f906f9"
   dependencies:
@@ -4545,15 +4545,15 @@ probot-commands@1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/probot-commands/-/probot-commands-1.1.0.tgz#da485f4d2d25bfd6ec194bf5dc21a80b51e6a303"
 
-probot-config@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/probot-config/-/probot-config-0.1.0.tgz#b6ef11ccc468e7f28e06deb68b34e093b7c7e88e"
+probot-config@0.2.0, probot-config@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/probot-config/-/probot-config-0.2.0.tgz#50af0349d37c367e182a06a9dafc7e3b76a6a8b8"
   dependencies:
     js-yaml "^3.10.0"
 
-probot-config@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/probot-config/-/probot-config-0.2.0.tgz#50af0349d37c367e182a06a9dafc7e3b76a6a8b8"
+probot-config@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/probot-config/-/probot-config-0.1.0.tgz#b6ef11ccc468e7f28e06deb68b34e093b7c7e88e"
   dependencies:
     js-yaml "^3.10.0"
 
@@ -4642,6 +4642,32 @@ probot@7.0.1:
     semver "^5.5.0"
     uuid "^3.2.1"
 
+probot@7.1.0, probot@^7.0.0, probot@^7.0.1:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/probot/-/probot-7.1.0.tgz#0caacd9e84a2ecc3ba3de68923c4240a3a0d21a8"
+  dependencies:
+    "@octokit/rest" "^15.9.4"
+    "@octokit/webhooks" "5.0.0"
+    bottleneck "^2.8.0"
+    bunyan "^1.8.12"
+    bunyan-format "^0.2.1"
+    bunyan-sentry-stream "^1.1.0"
+    cache-manager "^2.4.0"
+    commander "^2.11.0"
+    dotenv "~6.0.0"
+    express "^4.16.2"
+    express-async-errors "^3.0.0"
+    hbs "^4.0.1"
+    is-base64 "0.0.5"
+    js-yaml "^3.9.1"
+    jsonwebtoken "^8.1.0"
+    pkg-conf "^2.0.0"
+    promise-events "^0.1.3"
+    raven "^2.4.2"
+    resolve "^1.4.0"
+    semver "^5.5.0"
+    uuid "^3.2.1"
+
 probot@^3.0.2, probot@^3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/probot/-/probot-3.0.3.tgz#bdbf00ecc30398fe49bebff55662f0c9d1161092"
@@ -4713,32 +4739,6 @@ probot@^6.0.0, probot@^6.2.0:
     raven "^2.4.2"
     resolve "^1.4.0"
     semver "^5.5.0"
-
-probot@^7.0.0, probot@^7.0.1:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/probot/-/probot-7.1.0.tgz#0caacd9e84a2ecc3ba3de68923c4240a3a0d21a8"
-  dependencies:
-    "@octokit/rest" "^15.9.4"
-    "@octokit/webhooks" "5.0.0"
-    bottleneck "^2.8.0"
-    bunyan "^1.8.12"
-    bunyan-format "^0.2.1"
-    bunyan-sentry-stream "^1.1.0"
-    cache-manager "^2.4.0"
-    commander "^2.11.0"
-    dotenv "~6.0.0"
-    express "^4.16.2"
-    express-async-errors "^3.0.0"
-    hbs "^4.0.1"
-    is-base64 "0.0.5"
-    js-yaml "^3.9.1"
-    jsonwebtoken "^8.1.0"
-    pkg-conf "^2.0.0"
-    promise-events "^0.1.3"
-    raven "^2.4.2"
-    resolve "^1.4.0"
-    semver "^5.5.0"
-    uuid "^3.2.1"
 
 process-nextick-args@~1.0.6:
   version "1.0.7"
@@ -5327,7 +5327,7 @@ slice-ansi@1.0.0:
   dependencies:
     is-fullwidth-code-point "^2.0.0"
 
-smee-client@^1.0.2:
+smee-client@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/smee-client/-/smee-client-1.0.2.tgz#2b7e72d7ab383e5d6e4a17ae00cd07503cbcf25d"
   dependencies:
@@ -5484,7 +5484,7 @@ standard-engine@~8.0.0:
     minimist "^1.1.0"
     pkg-conf "^2.0.0"
 
-standard@^10.0.3:
+standard@10.0.3:
   version "10.0.3"
   resolved "https://registry.yarnpkg.com/standard/-/standard-10.0.3.tgz#7869bcbf422bdeeaab689a1ffb1fea9677dd50ea"
   dependencies:
