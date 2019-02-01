@@ -3,7 +3,7 @@ dependencies:
   lock-threads: github.com/dessant/lock-threads/0a248c11d22e07730697efc4cfe0161c5fbbb9a3
   move-issues: github.com/dessant/move-issues/fd6a09e989fa3468e29d37fca3554a2c6b9aae30
   potential-duplicates-bot: github.com/Bartozzz/potential-duplicates-bot/f77e5cc50679bb9b0f8cea0b259a5b4c5fcb2fe8
-  probot: 7.1.0
+  probot: 7.5.0
   probot-autolabeler: github.com/probot/autolabeler/b593c780a14e34280faffb70df75830289d95d67
   probot-config: 0.2.0
   probot-no-response: github.com/probot/no-response/486bd860d6b3edc6691b9e52785f7d4ab67fe9af
@@ -229,13 +229,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-VqpGDClqhLw5sKV+or5AnkPmUyur/Oktr9paqiR+yH69Tew9QA/vXHjKP4zctxj5PVAsOdTQFhSzP53qbNLVOg==
-  /@octokit/webhooks/5.0.0:
-    dependencies:
-      buffer-equal-constant-time: 1.0.1
-      debug: 3.2.6
-    dev: false
-    resolution:
-      integrity: sha512-BQ5b6GeWWSjUXNZIU+4jRoLapeJShxMyCD7hYD86Uy3qpqS6Rf8jyuiutKtlsVNI3a1p4FOzw5J6HsUzrIVvNQ==
   /@octokit/webhooks/5.3.2:
     dependencies:
       buffer-equal-constant-time: 1.0.1
@@ -5432,20 +5425,20 @@ packages:
       node: '>=8.12.0'
     resolution:
       integrity: sha512-bO6blNjATsGkIW+TKPQSRpQFTNXxDuzPC+DTZ7LhZ7yYkOdRSV9qt7X1D+YKbOSreEctzo8t8hvOekxWvzkWsw==
-  /probot-scheduler/1.2.0/probot@7.1.0:
+  /probot-scheduler/1.2.0/probot@7.3.1:
     dependencies:
       bottleneck: 2.15.3
-      probot: 7.1.0
+      probot: 7.3.1
     dev: false
     id: registry.npmjs.org/probot-scheduler/1.2.0
     peerDependencies:
       probot: '>=0.10.0'
     resolution:
       integrity: sha512-MCIH7erSh+/UppWeArexMh75+8JOPT5j8ykIDSy8CLFyM1DCGhfCLIjTB6b8INEh5eoTNjLmOOK5q/uby2sC1w==
-  /probot-scheduler/1.2.0/probot@7.3.1:
+  /probot-scheduler/1.2.0/probot@7.5.0:
     dependencies:
       bottleneck: 2.15.3
-      probot: 7.3.1
+      probot: 7.5.0
     dev: false
     id: registry.npmjs.org/probot-scheduler/1.2.0
     peerDependencies:
@@ -5533,35 +5526,6 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-RhP8vSefnzD+Erb/5DGl9TMV3r38D56GmSqMKf5O1bCuc+ySC8246yKxNXYRxjmarXejlg/Q4raCmRSo4s5HPA==
-  /probot/7.1.0:
-    dependencies:
-      '@octokit/rest': 15.18.1
-      '@octokit/webhooks': 5.0.0
-      bottleneck: 2.15.3
-      bunyan: 1.8.12
-      bunyan-format: 0.2.1
-      bunyan-sentry-stream: 1.2.1
-      cache-manager: 2.9.0
-      commander: 2.19.0
-      dotenv: 6.0.0
-      express: 4.16.4
-      express-async-errors: /express-async-errors/3.1.1/express@4.16.4
-      hbs: 4.0.1
-      is-base64: 0.0.5
-      js-yaml: 3.12.1
-      jsonwebtoken: 8.4.0
-      pkg-conf: 2.1.0
-      promise-events: 0.1.4
-      raven: 2.6.4
-      resolve: 1.10.0
-      semver: 5.6.0
-      uuid: 3.3.2
-    dev: false
-    engines:
-      node: '>=7.7'
-    hasBin: true
-    resolution:
-      integrity: sha512-oZGhFniBjX/CaFPeW+GnmE5aAjxF+TeGgo9HKJG8lWqlDugMAf0Fh77JNALqgR/nZlZwSwjPxFaEDG2Nagn2Kw==
   /probot/7.2.0:
     dependencies:
       '@octokit/rest': 15.18.1
@@ -7571,8 +7535,8 @@ packages:
     version: 1.0.0
   github.com/probot/no-response/486bd860d6b3edc6691b9e52785f7d4ab67fe9af:
     dependencies:
-      probot: 7.1.0
-      probot-scheduler: /probot-scheduler/1.2.0/probot@7.1.0
+      probot: 7.5.0
+      probot-scheduler: /probot-scheduler/1.2.0/probot@7.5.0
       scramjet: 4.21.0
     dev: false
     engines:
@@ -7655,7 +7619,7 @@ specifiers:
   move-issues: 'github:dessant/move-issues'
   nodemon: 1.18.9
   potential-duplicates-bot: 'github:Bartozzz/potential-duplicates-bot'
-  probot: 7.1.0
+  probot: 7.5.0
   probot-autolabeler: 'github:probot/autolabeler'
   probot-config: 0.2.0
   probot-no-response: 'github:probot/no-response'
