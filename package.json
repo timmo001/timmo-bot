@@ -36,7 +36,7 @@
     "wip-bot": "gr2m/wip-bot"
   },
   "devDependencies": {
-    "jest": "22.4.4",
+    "jest": "24.0.0",
     "nodemon": "1.18.9",
     "smee-client": "1.0.2",
     "standard": "10.0.3"
