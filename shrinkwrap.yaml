@@ -5,7 +5,7 @@ dependencies:
   potential-duplicates-bot: github.com/Bartozzz/potential-duplicates-bot/f77e5cc50679bb9b0f8cea0b259a5b4c5fcb2fe8
   probot: 7.1.0
   probot-autolabeler: github.com/probot/autolabeler/b593c780a14e34280faffb70df75830289d95d67
-  probot-config: 0.2.0
+  probot-config: 1.0.1
   probot-no-response: github.com/probot/no-response/486bd860d6b3edc6691b9e52785f7d4ab67fe9af
   probot-settings: github.com/probot/settings/a0cdc79a0bf5254222b16ce6be330cec19243fa2
   probot-stale: github.com/probot/stale/5843b68f819547bdecc9d4a367a78f921055164b
@@ -5370,18 +5370,6 @@ packages:
       probot: ^0.11.0
     resolution:
       integrity: sha512-OrPCZqHe9Ig94JE1FhFr5CqG+hPZCmm+6fKGNhXilXv/xYAhqICbjzg5+7leLlTQCuj96RBo+Q0YPcEWcCFm6A==
-  /probot-config/0.2.0:
-    dependencies:
-      js-yaml: 3.12.1
-    dev: false
-    engines:
-      node: '>=7.7.0'
-      npm: '>= 2.0.0'
-      yarn: '>= 1.0.0'
-    peerDependencies:
-      probot: '>= 0.11.0'
-    resolution:
-      integrity: sha512-xURFHWnzna2Gphw9LJgI9PTzDKZKxgGWGidfwXKlhP09F226UgxMsA2uMLlG7LEKNsKP1Yx9SAec8tsDYw2lNw==
   /probot-config/0.2.0/probot@7.5.0:
     dependencies:
       js-yaml: 3.12.1
@@ -5396,6 +5384,19 @@ packages:
       probot: '>= 0.11.0'
     resolution:
       integrity: sha512-xURFHWnzna2Gphw9LJgI9PTzDKZKxgGWGidfwXKlhP09F226UgxMsA2uMLlG7LEKNsKP1Yx9SAec8tsDYw2lNw==
+  /probot-config/1.0.1:
+    dependencies:
+      deepmerge: 2.2.1
+      js-yaml: 3.12.1
+    dev: false
+    engines:
+      node: '>=7.7.0'
+      npm: '>= 2.0.0'
+      yarn: '>= 1.0.0'
+    peerDependencies:
+      probot: '>= 0.11.0'
+    resolution:
+      integrity: sha512-xfQ+Fw8KuxSLj9kET/FN4kdgduVDWpibGP/vNueuhq1bmzRosiFbs/XsB3uUjpm+TWdt37TuwAvFOfvAJm7Sig==
   /probot-config/1.0.1/probot@7.5.0:
     dependencies:
       deepmerge: 2.2.1
@@ -7657,7 +7658,7 @@ specifiers:
   potential-duplicates-bot: 'github:Bartozzz/potential-duplicates-bot'
   probot: 7.1.0
   probot-autolabeler: 'github:probot/autolabeler'
-  probot-config: 0.2.0
+  probot-config: 1.0.1
   probot-no-response: 'github:probot/no-response'
   probot-settings: 'github:probot/settings'
   probot-stale: 'github:probot/stale'
