@@ -25,7 +25,7 @@
     "potential-duplicates-bot": "Bartozzz/potential-duplicates-bot",
     "probot": "7.1.0",
     "probot-autolabeler": "probot/autolabeler",
-    "probot-config": "0.2.0",
+    "probot-config": "1.0.1",
     "probot-no-response": "probot/no-response",
     "probot-settings": "probot/settings",
     "probot-stale": "probot/stale",
