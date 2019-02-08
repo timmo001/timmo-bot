@@ -8,7 +8,7 @@ dependencies:
   probot-config: 1.0.1
   probot-no-response: github.com/probot/no-response/486bd860d6b3edc6691b9e52785f7d4ab67fe9af
   probot-settings: github.com/probot/settings/a0cdc79a0bf5254222b16ce6be330cec19243fa2
-  probot-stale: github.com/probot/stale/5843b68f819547bdecc9d4a367a78f921055164b
+  probot-stale: github.com/probot/stale/3d002264f78a025997e3a36e3658144e714f9437
   request-info: github.com/behaviorbot/request-info/d3a5fb72f461ee43f2e664119528deac6f36f25e
   support-requests: github.com/dessant/support-requests/f84e2bef21281773e23fc5110039065d4ed69110
   unfurl: github.com/probot/unfurl/81e04d68d7eafce7475ec6081a7b55ac5de2544b
@@ -16,7 +16,7 @@ dependencies:
   wip-bot: github.com/gr2m/wip-bot/7e73d8e746980a15b8254a6235bbbba86e8b5d87
 devDependencies:
   jest: 24.1.0
-  nodemon: 1.18.9
+  nodemon: 1.18.10
   smee-client: 1.0.2
   standard: 12.0.1
 packages:
@@ -144,6 +144,38 @@ packages:
     dev: true
     resolution:
       integrity: sha512-3Y6H8xlUlpbGR+XvawiH0UXehqydTmNmEpozWcXymqwcrwYAl5KMvKtQ+TF6f6E08V6Jur7v/ykdDSF+WDEIXQ==
+  /@newrelic/koa/1.0.8/newrelic@5.2.1:
+    dependencies:
+      methods: 1.1.2
+      newrelic: /newrelic/5.2.1/newrelic@5.2.1
+    dev: false
+    id: registry.npmjs.org/@newrelic/koa/1.0.8
+    peerDependencies:
+      newrelic: '>=3.3.1'
+    resolution:
+      integrity: sha512-kY//FlLQkGdUIKEeGJlyY3dJRU63EG77YIa48ACMGZxQbWRd3WZMikyft33f8XScTq6WpCDo9xa0viNo8zeYkg==
+  /@newrelic/native-metrics/4.1.0:
+    dependencies:
+      nan: 2.12.1
+      semver: 5.6.0
+    dev: false
+    engines:
+      node: '>=6'
+      npm: '>=3'
+    optional: true
+    requiresBuild: true
+    resolution:
+      integrity: sha512-7CZlKMLuaYQW7mV9qVyo9b9HVe2xBnyn+kkETRJoZGs5P7gdfv9AAE3RPhtOBUopTfbmc8ju7njYadjui9J1XA==
+  /@newrelic/superagent/1.0.2/newrelic@5.2.1:
+    dependencies:
+      methods: 1.1.2
+      newrelic: /newrelic/5.2.1/newrelic@5.2.1
+    dev: false
+    id: registry.npmjs.org/@newrelic/superagent/1.0.2
+    peerDependencies:
+      newrelic: '>=4.3.0'
+    resolution:
+      integrity: sha512-B2fM48kfY+5L6pwk6Yt79yk1JzMWKu1wV73If2shAzMsujNqSA4P+mLKCnTthIuKlhE78OfB1MzSpRMeB7kgWw==
   /@octokit/app/2.2.1:
     dependencies:
       '@octokit/request': 2.3.0
@@ -173,7 +205,7 @@ packages:
       integrity: sha512-MT37VSPK0ERG8m6uaK0uimJnVPvo5ecs673yHqp7r2SRis136pWkMWqanJSWGP/TQbWRHKxAvG1U9+3234zMHA==
   /@octokit/plugin-retry/2.1.2:
     dependencies:
-      bottleneck: 2.16.0
+      bottleneck: 2.16.1
     dev: false
     resolution:
       integrity: sha512-4j1NRkproK9ygE6mqUTNvFVMVpZhzixLCLwOxLUesbN8OBHgGrfKq/Vt9onGD4WHFEUjHOsHS3tehNz8cA7g5g==
@@ -234,6 +266,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-WxwTXnHTIsk7srax1icjLgX+6w1MUAJbhyCpRP/45paEElsPDQUJZDgr1UpKuL2S3Tb+ZyX9MjWwmcSD4bUoOQ==
+  /@tyriar/fibonacci-heap/2.0.9:
+    dev: false
+    resolution:
+      integrity: sha512-bYuSNomfn4hu2tPiDN+JZtnzCpSpbJ/PNeulmocDy3xN2X5OkJL65zo6rPZp65cPPhLF9vfT/dgE+RtFRCSxOA==
   /abab/1.0.4:
     dev: false
     resolution:
@@ -262,13 +298,13 @@ packages:
       integrity: sha1-/YJw9x+7SZawBPqIDuXUZXOnMb8=
   /acorn-globals/4.3.0:
     dependencies:
-      acorn: 6.0.7
+      acorn: 6.1.0
       acorn-walk: 6.1.1
     resolution:
       integrity: sha512-hMtHj3s5RnuhvHPowpBYvJVj3rAar82JiDQHvGs1zO0l10ocX/xEdBShNHTJaboucJUsScghp74pH3s7EnHHQw==
-  /acorn-jsx/5.0.1/acorn@6.0.7:
+  /acorn-jsx/5.0.1/acorn@6.1.0:
     dependencies:
-      acorn: 6.0.7
+      acorn: 6.1.0
     dev: true
     id: registry.npmjs.org/acorn-jsx/5.0.1
     peerDependencies:
@@ -293,12 +329,12 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
-  /acorn/6.0.7:
+  /acorn/6.1.0:
     engines:
       node: '>=0.4.0'
     hasBin: true
     resolution:
-      integrity: sha512-HNJNgE60C9eOTgn974Tlp3dpLZdUr+SoxxDwPaY9J/kDNOLQTkaDgwBUXAF4SSsrAwD9RpdxuHK/EbuF+W9Ahw==
+      integrity: sha512-MW/FjM+IvU9CgBzjO3UIPCE2pyEwUsoFl+VGdczOPEdxfGFjuKny/gN54mOuX7Qxmb9Rg9MCn2oKiSUeW+pjrw==
   /agent-base/2.1.1:
     dependencies:
       extend: 3.0.2
@@ -671,7 +707,7 @@ packages:
     dependencies:
       babel-core: 6.26.3
       babel-runtime: 6.26.0
-      core-js: 2.6.3
+      core-js: 2.6.4
       home-or-tmp: 2.0.0
       lodash: 4.17.11
       mkdirp: 0.5.1
@@ -681,7 +717,7 @@ packages:
       integrity: sha1-btAhFz4vy0htestFxgCahW9kcHE=
   /babel-runtime/6.26.0:
     dependencies:
-      core-js: 2.6.3
+      core-js: 2.6.4
       regenerator-runtime: 0.11.1
     dev: false
     resolution:
@@ -798,10 +834,10 @@ packages:
     dev: false
     resolution:
       integrity: sha1-1s4TgIUnr8gLaQkvFWBmVeWyHxo=
-  /bottleneck/2.16.0:
+  /bottleneck/2.16.1:
     dev: false
     resolution:
-      integrity: sha512-chPkFtUbE0Z2GPW4jzqF9GFedAvJQgroFUcwhoFGKdNsQBo7P0Bsc9VHH3YrJ1uWs9Mvx5MazOymI/HLYlguZA==
+      integrity: sha512-OOHt4HXiMoXKUcQR/LBzwMYWCQxOU74c8zs6/VPCe6xO3kOAZBZqYKmrgsamVXa1wm9iztD1DAoV46KmGKLl5g==
   /boxen/1.3.0:
     dependencies:
       ansi-align: 2.0.0
@@ -870,7 +906,6 @@ packages:
     resolution:
       integrity: sha1-+OcRMvf/5uAaXJaXpMbz5I1cyBk=
   /buffer-from/1.1.1:
-    dev: true
     resolution:
       integrity: sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
   /buffer/5.2.1:
@@ -881,6 +916,7 @@ packages:
     resolution:
       integrity: sha512-c+Ko0loDaFfuPWiL02ls9Xd3GO3cPVmUobQ6t3rXNUk304u6hGq+8N/kFi+QEIKhzK3uwolVhLzszmfLmMLnqg==
   /builtin-modules/1.1.1:
+    dev: false
     engines:
       node: '>=0.10.0'
     resolution:
@@ -1037,7 +1073,7 @@ packages:
     dev: false
     resolution:
       integrity: sha1-wKHS86cJLgN3S/qD8UwPxXkKhmc=
-  /chokidar/2.0.4:
+  /chokidar/2.1.0:
     dependencies:
       anymatch: 2.0.0
       async-each: 1.0.1
@@ -1046,8 +1082,7 @@ packages:
       inherits: 2.0.3
       is-binary-path: 1.0.1
       is-glob: 4.0.0
-      lodash.debounce: 4.0.8
-      normalize-path: 2.1.1
+      normalize-path: 3.0.0
       path-is-absolute: 1.0.1
       readdirp: 2.2.1
       upath: 1.1.0
@@ -1055,7 +1090,7 @@ packages:
     optionalDependencies:
       fsevents: 1.2.7
     resolution:
-      integrity: sha512-z9n7yt9rOvIJrMhvDtDictKrkFHeihkNl6uWMmZlmL6tJtX9Cs+87oK+teBx+JIgzvbX3yZHT3eF8vpbDxHJXQ==
+      integrity: sha512-5t6G2SH8eO6lCvYOoUpaRnF5Qfd//gd7qJAkwRUw9qlGVkiQ13uwQngqbWWaurOsaAm9+kUGbITADxt6H0XFNQ==
   /ci-info/1.6.0:
     resolution:
       integrity: sha512-vsGdkwSCDpWmP80ncATX7iea5DWQemg1UgCW5J8tqjU3lYw4FBYuj89J0CTVomA7BEfvSZd84GmHko+MxFQU2A==
@@ -1186,6 +1221,17 @@ packages:
   /concat-map/0.0.1:
     resolution:
       integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
+  /concat-stream/1.6.2:
+    dependencies:
+      buffer-from: 1.1.1
+      inherits: 2.0.3
+      readable-stream: 2.3.6
+      typedarray: 0.0.6
+    dev: false
+    engines:
+      '0': node >= 0.8
+    resolution:
+      integrity: sha512-27HBghJxjiZtIk3Ycvn/4kbJk/1uZuJFfuPEns6LaEvpvG1f0hTea8lilrouyo9mVc2GWdcEZ8OLoGmSADlrCw==
   /configstore/3.1.2:
     dependencies:
       dot-prop: 4.2.0
@@ -1245,10 +1291,10 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
-  /core-js/2.6.3:
+  /core-js/2.6.4:
     dev: false
     resolution:
-      integrity: sha512-l00tmFFZOBHtYhN4Cz7k32VM7vTn3rE2ANjQDxdEN6zmXZ/xq1jQuutnmHvMG1ZJ7xd72+TA5YpUK8wz3rWsfQ==
+      integrity: sha512-05qQ5hXShcqGkPZpXEFLIpxayZscVD2kuMBZewxiIPPEagukO4mqgPA9CWhUvFBJfy3ODdK2p9xyHh7FTU9/7A==
   /core-util-is/1.0.2:
     resolution:
       integrity: sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
@@ -1878,8 +1924,8 @@ packages:
       integrity: sha512-UIpL91XGex3qtL6qwyCQJar2j3osKxK9e3ano3OcGEIRM4oWIpCkDg9x95AXEC2wMs7PnxzOkPZ2gq+tsMS9yg==
   /espree/4.1.0:
     dependencies:
-      acorn: 6.0.7
-      acorn-jsx: /acorn-jsx/5.0.1/acorn@6.0.7
+      acorn: 6.1.0
+      acorn-jsx: /acorn-jsx/5.0.1/acorn@6.1.0
       eslint-visitor-keys: 1.0.0
     dev: true
     engines:
@@ -2533,18 +2579,6 @@ packages:
   /growly/1.3.0:
     resolution:
       integrity: sha1-8QdIy+dq+WS3yWyTxrzCivEgwIE=
-  /handlebars/4.0.12:
-    dependencies:
-      async: 2.6.1
-      optimist: 0.6.1
-      source-map: 0.6.1
-    engines:
-      node: '>=0.4.7'
-    hasBin: true
-    optionalDependencies:
-      uglify-js: 3.4.9
-    resolution:
-      integrity: sha512-RhmTekP+FZL+XNhwS1Wf+bTTZpdLougwt5pcgA1tuz6Jcx0fpH/7z0qd71RKnZHBCxIRBHfBOnio4gViPemNzA==
   /handlebars/4.0.5:
     dependencies:
       async: 1.5.2
@@ -2558,6 +2592,18 @@ packages:
       uglify-js: 2.8.29
     resolution:
       integrity: sha1-ksbta7FkEQxQ1NjQ+93HCAbG+Oc=
+  /handlebars/4.1.0:
+    dependencies:
+      async: 2.6.1
+      optimist: 0.6.1
+      source-map: 0.6.1
+    engines:
+      node: '>=0.4.7'
+    hasBin: true
+    optionalDependencies:
+      uglify-js: 3.4.9
+    resolution:
+      integrity: sha512-l2jRuU1NAWK6AW5qqcTATWQJvNPEwkM7NEKSiv/gqOsoSQbVoWyqVEY5GS+XPQ88zLNmqASRpzfdm8d79hJS+w==
   /har-schema/2.0.0:
     engines:
       node: '>=4'
@@ -2899,6 +2945,7 @@ packages:
   /is-builtin-module/1.0.0:
     dependencies:
       builtin-modules: 1.1.1
+    dev: false
     engines:
       node: '>=0.10.0'
     resolution:
@@ -3333,13 +3380,13 @@ packages:
       integrity: sha512-JX4v0CiKTGp9fZPmoxpu9YEkPbEqCqBbO3403VabKjH+NRXo72HafD5UgnjTEqHL2SAjaZK1XDuDOkn6I5QVfQ==
   /istanbul-reports/1.5.1:
     dependencies:
-      handlebars: 4.0.12
+      handlebars: 4.1.0
     dev: false
     resolution:
       integrity: sha512-+cfoZ0UXzWjhAdzosCPP3AN8vvef8XDkWtTfgaN+7L3YTpNYITnCaEkceo5SEYy644VkHka/P1FvkWvrG/rrJw==
   /istanbul-reports/2.1.0:
     dependencies:
-      handlebars: 4.0.12
+      handlebars: 4.1.0
     dev: true
     engines:
       node: '>=6'
@@ -3429,7 +3476,7 @@ packages:
       node-notifier: 5.4.0
       p-each-series: 1.0.0
       pirates: 4.0.0
-      prompts: 2.0.1
+      prompts: 2.0.2
       realpath-native: 1.0.2
       rimraf: 2.6.3
       slash: 2.0.0
@@ -4150,12 +4197,12 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha512-s5kLOcnH0XqDO+FvuaLX8DDjZ18CGFk7VygH40QoKPUQhW4e2rvM0rwUq0t8IQDOwYSeLK01U90OjzBTme2QqA==
-  /kleur/3.0.1:
+  /kleur/3.0.2:
     dev: true
     engines:
       node: '>=6'
     resolution:
-      integrity: sha512-P3kRv+B+Ra070ng2VKQqW4qW7gd/v3iD8sy/zOdcYRsfiD+QBokQNOps/AfP6Hr48cBhIIBFWckB9aO+IZhrWg==
+      integrity: sha512-3h7B2WRT5LNXOtQiAaWonilegHcPSf9nLVXlSTci8lu1dZUuui61+EsPEZqSVxY7rXYmB2DVKMQILxaO5WL61Q==
   /latest-version/3.1.0:
     dependencies:
       package-json: 4.0.1
@@ -4256,10 +4303,6 @@ packages:
     dev: false
     resolution:
       integrity: sha1-euMBfpOWIqwxt9fX3LGzTbFpDTU=
-  /lodash.debounce/4.0.8:
-    dev: true
-    resolution:
-      integrity: sha1-gteb/zCmfEAF/9XiUVMArZyk168=
   /lodash.defaults/4.2.0:
     dev: false
     resolution:
@@ -4662,6 +4705,27 @@ packages:
     dev: false
     resolution:
       integrity: sha1-a+lPysqNd63gqWcNxGCRTJRHJEQ=
+  /newrelic/5.2.1/newrelic@5.2.1:
+    dependencies:
+      '@newrelic/koa': /@newrelic/koa/1.0.8/newrelic@5.2.1
+      '@newrelic/superagent': /@newrelic/superagent/1.0.2/newrelic@5.2.1
+      '@tyriar/fibonacci-heap': 2.0.9
+      async: 2.6.1
+      concat-stream: 1.6.2
+      https-proxy-agent: 2.2.1
+      json-stringify-safe: 5.0.1
+      readable-stream: 2.3.6
+      semver: 5.6.0
+    dev: false
+    engines:
+      node: '>=6.0.0 <11.0.0'
+      npm: '>=3.0.0'
+    hasBin: true
+    id: registry.npmjs.org/newrelic/5.2.1
+    optionalDependencies:
+      '@newrelic/native-metrics': 4.1.0
+    resolution:
+      integrity: sha512-yB2ZEUeJLHCZfk4enXa3YFWVyK3yc+BuS+Y65jWOgXq/vaYq4KG8/gvqIdfKz0ziFWBfA//N3vm9RiyeZq3VJg==
   /nice-try/1.0.5:
     resolution:
       integrity: sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
@@ -4689,9 +4753,9 @@ packages:
       which: 1.3.1
     resolution:
       integrity: sha512-SUDEb+o71XR5lXSTyivXd9J7fCloE3SyP4lSgt3lU2oSANiox+SxlNRGPjDKrwU1YN3ix2KN/VGGCg0t01rttQ==
-  /nodemon/1.18.9:
+  /nodemon/1.18.10:
     dependencies:
-      chokidar: 2.0.4
+      chokidar: 2.1.0
       debug: 3.2.6
       ignore-by-default: 1.0.1
       minimatch: 3.0.4
@@ -4707,7 +4771,7 @@ packages:
     hasBin: true
     requiresBuild: true
     resolution:
-      integrity: sha512-oj/eEVTEI47pzYAjGkpcNw0xYwTl4XSTUQv2NPQI6PpN3b75PhpuYk3Vb3U80xHCyM2Jm+1j68ULHXl4OR3Afw==
+      integrity: sha512-we51yBb1TfEvZamFchRgcfLbVYgg0xlGbyXmOtbBzDwxwgewYS/YbZ5tnlnsH51+AoSTTsT3A2E/FloUbtH8cQ==
   /nopt/1.0.10:
     dependencies:
       abbrev: 1.1.1
@@ -4715,14 +4779,14 @@ packages:
     hasBin: true
     resolution:
       integrity: sha1-bd0hvSoxQXuScn3Vhfim83YI6+4=
-  /normalize-package-data/2.4.2:
+  /normalize-package-data/2.5.0:
     dependencies:
       hosted-git-info: 2.7.1
-      is-builtin-module: 1.0.0
+      resolve: 1.10.0
       semver: 5.6.0
       validate-npm-package-license: 3.0.4
     resolution:
-      integrity: sha512-YcMnjqeoUckXTPKZSAsPjUPLxH85XotbpqK3w4RyCwdFQSU5FxxBys8buehkSfg0j9fKvV1hn7O0+8reEgkAiw==
+      integrity: sha512-/5CMN3T0R4XTj4DcGaexo+roZSdSFW/0AOOTROrjxzCG1wrWXEsGbRKevjlIL+ZDE4sZlJr5ED4YW0yqmkK+eA==
   /normalize-path/2.1.1:
     dependencies:
       remove-trailing-separator: 1.1.0
@@ -4730,6 +4794,12 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-GrKLVW4Zg2Oowab35vogE3/mrtk=
+  /normalize-path/3.0.0:
+    dev: true
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
   /npm-run-path/2.0.2:
     dependencies:
       path-key: 2.0.1
@@ -5313,7 +5383,7 @@ packages:
       integrity: sha512-bO6blNjATsGkIW+TKPQSRpQFTNXxDuzPC+DTZ7LhZ7yYkOdRSV9qt7X1D+YKbOSreEctzo8t8hvOekxWvzkWsw==
   /probot-scheduler/1.2.0/probot@7.3.1:
     dependencies:
-      bottleneck: 2.16.0
+      bottleneck: 2.16.1
       probot: 7.3.1
     dev: false
     id: registry.npmjs.org/probot-scheduler/1.2.0
@@ -5323,7 +5393,7 @@ packages:
       integrity: sha512-MCIH7erSh+/UppWeArexMh75+8JOPT5j8ykIDSy8CLFyM1DCGhfCLIjTB6b8INEh5eoTNjLmOOK5q/uby2sC1w==
   /probot-scheduler/1.2.0/probot@7.5.0:
     dependencies:
-      bottleneck: 2.16.0
+      bottleneck: 2.16.1
       probot: 7.5.0
     dev: false
     id: registry.npmjs.org/probot-scheduler/1.2.0
@@ -5389,7 +5459,7 @@ packages:
     dependencies:
       '@octokit/rest': 15.18.1
       '@octokit/webhooks': 3.1.1
-      bottleneck: 2.16.0
+      bottleneck: 2.16.1
       bunyan: 1.8.12
       bunyan-format: 0.2.1
       bunyan-sentry-stream: 1.2.1
@@ -5416,7 +5486,7 @@ packages:
     dependencies:
       '@octokit/rest': 15.18.1
       '@octokit/webhooks': 5.3.2
-      bottleneck: 2.16.0
+      bottleneck: 2.16.1
       bunyan: 1.8.12
       bunyan-format: 0.2.1
       bunyan-sentry-stream: 1.2.1
@@ -5448,7 +5518,7 @@ packages:
       '@octokit/rest': 15.18.1
       '@octokit/webhooks': 5.3.2
       '@types/supports-color': 5.3.0
-      bottleneck: 2.16.0
+      bottleneck: 2.16.1
       bunyan: 1.8.12
       bunyan-format: 0.2.1
       bunyan-sentry-stream: 1.2.1
@@ -5481,7 +5551,7 @@ packages:
       '@octokit/rest': 15.18.1
       '@octokit/webhooks': 5.3.2
       '@types/supports-color': 5.3.0
-      bottleneck: 2.16.0
+      bottleneck: 2.16.1
       bunyan: 1.8.12
       bunyan-format: 0.2.1
       bunyan-sentry-stream: 1.2.1
@@ -5519,7 +5589,7 @@ packages:
       '@octokit/rest': 16.15.0
       '@octokit/webhooks': 5.3.2
       '@types/supports-color': 5.3.0
-      bottleneck: 2.16.0
+      bottleneck: 2.16.1
       bunyan: 1.8.12
       bunyan-format: 0.2.1
       bunyan-sentry-stream: 1.2.1
@@ -5554,7 +5624,6 @@ packages:
     resolution:
       integrity: sha1-FQ4gt1ZZCtP5EJPyWk8q2L/zC6M=
   /process-nextick-args/2.0.0:
-    dev: true
     resolution:
       integrity: sha512-MtEC1TqN0EU5nephaJ4rAtThHtC86dNN9qCuEhtshvpVBkAW5ZO7BASN9REnF9eoXGcRub+pFuKEpOHE+HbEMw==
   /progress/2.0.3:
@@ -5569,15 +5638,15 @@ packages:
       node: '>=4.0.0'
     resolution:
       integrity: sha1-PIj66X5EjaaPf88Z1O4wjW5DLVs=
-  /prompts/2.0.1:
+  /prompts/2.0.2:
     dependencies:
-      kleur: 3.0.1
+      kleur: 3.0.2
       sisteransi: 1.0.0
     dev: true
     engines:
       node: '>= 6'
     resolution:
-      integrity: sha512-8lnEOSIGQbgbnO47+13S+H204L8ISogGulyi0/NNEFAQ9D1VMNTrJ9SBX2Ra03V4iPn/zt36HQMndRYkaPoWiQ==
+      integrity: sha512-Pc/c53d2WZHJWZr78/BhZ5eHsdQtltbyBjHoA4T0cs/4yKJqCcoOHrq2SNKwtspVE0C+ebqAR5u0/mXwrHaADQ==
   /prop-types/15.6.2:
     dependencies:
       loose-envify: 1.4.0
@@ -5716,7 +5785,7 @@ packages:
   /read-pkg/1.1.0:
     dependencies:
       load-json-file: 1.1.0
-      normalize-package-data: 2.4.2
+      normalize-package-data: 2.5.0
       path-type: 1.1.0
     dev: false
     engines:
@@ -5726,7 +5795,7 @@ packages:
   /read-pkg/2.0.0:
     dependencies:
       load-json-file: 2.0.0
-      normalize-package-data: 2.4.2
+      normalize-package-data: 2.5.0
       path-type: 2.0.0
     engines:
       node: '>=4'
@@ -5735,7 +5804,7 @@ packages:
   /read-pkg/3.0.0:
     dependencies:
       load-json-file: 4.0.0
-      normalize-package-data: 2.4.2
+      normalize-package-data: 2.5.0
       path-type: 3.0.0
     dev: true
     engines:
@@ -5762,7 +5831,6 @@ packages:
       safe-buffer: 5.1.2
       string_decoder: 1.1.1
       util-deprecate: 1.0.2
-    dev: true
     resolution:
       integrity: sha512-tQtKA9WIAhBF3+VLAseyMqZeBjW0AHJoxOtYqSUZNJxauErmLbVm2FW1y+J/YA9dUrAC39ITejlZWhVIwawkKw==
   /readable-stream/3.1.1:
@@ -6462,7 +6530,6 @@ packages:
   /string_decoder/1.1.1:
     dependencies:
       safe-buffer: 5.1.2
-    dev: true
     resolution:
       integrity: sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==
   /string_decoder/1.2.0:
@@ -6762,6 +6829,10 @@ packages:
       node: '>= 0.6'
     resolution:
       integrity: sha512-HRkVv/5qY2G6I8iab9cI7v1bOIdhm94dVjQCPFElW9W+3GeDOSHmy2EBYe4VTApuzolPcmgFTN3ftVJRKR2J9Q==
+  /typedarray/0.0.6:
+    dev: false
+    resolution:
+      integrity: sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
   /uglify-js/2.8.29:
     dependencies:
       source-map: 0.5.7
@@ -7401,7 +7472,7 @@ packages:
     version: 0.0.0-development
   github.com/octokit/plugin-throttling.js/95d1cf40d8a724bb31e7ed387c681a8119e96980:
     dependencies:
-      bottleneck: 2.16.0
+      bottleneck: 2.16.1
     dev: false
     name: '@octokit/plugin-throttling'
     resolution:
@@ -7440,7 +7511,7 @@ packages:
     version: 1.0.0
   github.com/probot/scheduler/75bc5dd3fcac5bf6448ce85c63d1e5c2971c11a8/probot@7.5.0:
     dependencies:
-      bottleneck: 2.16.0
+      bottleneck: 2.16.1
       probot: 7.5.0
     dev: false
     id: github.com/probot/scheduler/75bc5dd3fcac5bf6448ce85c63d1e5c2971c11a8
@@ -7464,9 +7535,10 @@ packages:
     resolution:
       tarball: 'https://codeload.github.com/probot/settings/tar.gz/a0cdc79a0bf5254222b16ce6be330cec19243fa2'
     version: 1.0.0
-  github.com/probot/stale/5843b68f819547bdecc9d4a367a78f921055164b:
+  github.com/probot/stale/3d002264f78a025997e3a36e3658144e714f9437:
     dependencies:
       joi: 14.3.1
+      newrelic: /newrelic/5.2.1/newrelic@5.2.1
       probot: 7.3.1
       probot-config: /probot-config/0.1.0/probot@7.3.1
       probot-scheduler: /probot-scheduler/1.2.0/probot@7.3.1
@@ -7476,7 +7548,7 @@ packages:
       npm: ^5.6
     name: probot-stale
     resolution:
-      tarball: 'https://codeload.github.com/probot/stale/tar.gz/5843b68f819547bdecc9d4a367a78f921055164b'
+      tarball: 'https://codeload.github.com/probot/stale/tar.gz/3d002264f78a025997e3a36e3658144e714f9437'
     version: 1.1.0
   github.com/probot/unfurl/81e04d68d7eafce7475ec6081a7b55ac5de2544b:
     dependencies:
@@ -7510,7 +7582,7 @@ specifiers:
   jest: 24.1.0
   lock-threads: 'github:dessant/lock-threads'
   move-issues: 'github:dessant/move-issues'
-  nodemon: 1.18.9
+  nodemon: 1.18.10
   potential-duplicates-bot: 'github:Bartozzz/potential-duplicates-bot'
   probot: 7.5.0
   probot-autolabeler: 'github:probot/autolabeler'
