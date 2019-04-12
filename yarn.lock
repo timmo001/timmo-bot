@@ -166,11 +166,10 @@
     buffer-equal-constant-time "^1.0.1"
     debug "^3.1.0"
 
-"@octokit/webhooks@^5.0.2":
-  version "5.3.2"
-  resolved "https://registry.yarnpkg.com/@octokit/webhooks/-/webhooks-5.3.2.tgz#3002f9c3f173d66e29fa1e30608ccda3621e2516"
+"@octokit/webhooks@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@octokit/webhooks/-/webhooks-6.0.1.tgz#326e24030fc20d2f21feb719da21299877635435"
   dependencies:
-    buffer-equal-constant-time "^1.0.1"
     debug "^4.0.0"
 
 "@types/supports-color@^5.3.0":
@@ -2394,6 +2393,16 @@ growly@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/growly/-/growly-1.3.0.tgz#f10748cbe76af964b7c96c93c6bcc28af120c081"
 
+handlebars@4.0.13:
+  version "4.0.13"
+  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.0.13.tgz#89fc17bf26f46fd7f6f99d341d92efaae64f997d"
+  dependencies:
+    async "^2.5.0"
+    optimist "^0.6.1"
+    source-map "^0.6.1"
+  optionalDependencies:
+    uglify-js "^3.1.4"
+
 handlebars@4.0.5:
   version "4.0.5"
   resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.0.5.tgz#92c6ed6bb164110c50d4d8d0fbddc70806c6f8e7"
@@ -2491,6 +2500,13 @@ hbs@^4.0.1:
   resolved "https://registry.yarnpkg.com/hbs/-/hbs-4.0.1.tgz#4bfd98650dc8c9dac44b3ca9adf9c098e8bc33b6"
   dependencies:
     handlebars "4.0.5"
+    walk "2.3.9"
+
+hbs@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/hbs/-/hbs-4.0.3.tgz#18f5b15cdc900798e26133284294070666f8131c"
+  dependencies:
+    handlebars "4.0.13"
     walk "2.3.9"
 
 hoek@5.x.x:
@@ -3694,6 +3710,13 @@ js-yaml@^3.10.0, js-yaml@^3.7.0, js-yaml@^3.9.0, js-yaml@^3.9.1:
 js-yaml@^3.11.0, js-yaml@^3.12.0:
   version "3.12.1"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.12.1.tgz#295c8632a18a23e054cf5c9d3cecafe678167600"
+  dependencies:
+    argparse "^1.0.7"
+    esprima "^4.0.0"
+
+js-yaml@^3.13.1:
+  version "3.13.1"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
@@ -5030,12 +5053,12 @@ probot@7.0.1:
     semver "^5.5.0"
     uuid "^3.2.1"
 
-probot@7.5.0:
-  version "7.5.0"
-  resolved "https://registry.yarnpkg.com/probot/-/probot-7.5.0.tgz#17f4441210c95b822a53dc9748fb17261a1aacdf"
+probot@7.5.3:
+  version "7.5.3"
+  resolved "https://registry.yarnpkg.com/probot/-/probot-7.5.3.tgz#419e9219a9ebab453adb272fed4eae7d4865b4c6"
   dependencies:
     "@octokit/rest" "^15.18.0"
-    "@octokit/webhooks" "^5.0.2"
+    "@octokit/webhooks" "^6.0.1"
     "@types/supports-color" "^5.3.0"
     bottleneck "^2.8.0"
     bunyan "^1.8.12"
@@ -5046,9 +5069,9 @@ probot@7.5.0:
     dotenv "~6.2.0"
     express "^4.16.2"
     express-async-errors "^3.0.0"
-    hbs "^4.0.1"
+    hbs "^4.0.3"
     is-base64 "0.1.0"
-    js-yaml "^3.9.1"
+    js-yaml "^3.13.1"
     jsonwebtoken "^8.1.0"
     pkg-conf "^2.0.0"
     promise-events "^0.1.3"
