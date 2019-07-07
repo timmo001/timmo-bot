@@ -19,7 +19,6 @@
     "now-start": "PRIVATE_KEY=$(echo $PRIVATE_KEY_BASE64 | base64 -d) npm start"
   },
   "dependencies": {
-    "invite-contributors": "erickzhao/invite-contributors",
     "lock-threads": "dessant/lock-threads",
     "move-issues": "dessant/move-issues",
     "potential-duplicates-bot": "Bartozzz/potential-duplicates-bot",
@@ -43,7 +42,6 @@
   },
   "probot": {
     "apps": [
-      "invite-contributors",
       "lock-threads/src",
       "move-issues/src",
       "potential-duplicates-bot/src",
