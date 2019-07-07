@@ -78,7 +78,7 @@ SOFTWARE.
 [issue]: https://github.com/timmo001/timmo-bot/issues
 [keepchangelog]: http://keepachangelog.com/en/1.0.0/
 [license-shield]: https://img.shields.io/github/license/timmo001/timmo-bot.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2018.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [instructions]: https://probot.github.io/docs/development/#configure-a-github-app
 [smee]: https://smee.io
