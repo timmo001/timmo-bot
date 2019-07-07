@@ -4926,9 +4926,9 @@ probot-commands@1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/probot-commands/-/probot-commands-1.1.0.tgz#da485f4d2d25bfd6ec194bf5dc21a80b51e6a303"
 
-probot-config@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/probot-config/-/probot-config-1.0.1.tgz#8d4f5eae7f0b0777e0386de8c55a173a434c0dad"
+probot-config@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/probot-config/-/probot-config-1.1.0.tgz#f8131c9f4f3e499e7bfc5c79284d012e4a8d2f25"
   dependencies:
     deepmerge "^2.2.1"
     js-yaml "^3.10.0"
