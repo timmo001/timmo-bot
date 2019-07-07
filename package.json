@@ -25,6 +25,7 @@
     "probot": "9.2.15",
     "probot-autolabeler": "probot/autolabeler",
     "probot-config": "1.1.0",
+    "probot-labeler": "probot/autolabeler",
     "probot-no-response": "probot/no-response",
     "probot-settings": "probot/settings",
     "probot-stale": "probot/stale",
@@ -32,7 +33,7 @@
     "support-requests": "dessant/support-requests",
     "unfurl": "probot/unfurl",
     "welcome": "behaviorbot/welcome",
-    "wip-bot": "gr2m/wip-bot"
+    "wip": "gr2m/wip-bot"
   },
   "devDependencies": {
     "jest": "24.8.0",
