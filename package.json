@@ -16,7 +16,8 @@
     "dev": "nodemon --exec \"npm run start-probot\"",
     "start-probot": "probot run",
     "start": "PRIVATE_KEY=$(echo $PRIVATE_KEY | base64 -d) probot run",
-    "now-start": "PRIVATE_KEY=$(echo $PRIVATE_KEY_BASE64 | base64 -d) npm start"
+    "now-start": "PRIVATE_KEY=$(echo $PRIVATE_KEY_BASE64 | base64 -d) npm start",
+    "snyk-protect": "snyk protect"
   },
   "dependencies": {
     "lock-threads": "dessant/lock-threads",
@@ -33,7 +34,8 @@
     "support-requests": "dessant/support-requests",
     "unfurl": "probot/unfurl",
     "welcome": "behaviorbot/welcome",
-    "wip": "gr2m/wip-bot"
+    "wip": "gr2m/wip-bot",
+    "snyk": "1.192.3"
   },
   "devDependencies": {
     "jest": "24.8.0",
@@ -58,5 +60,6 @@
       "first-pr-merge",
       "wip-bot"
     ]
-  }
+  },
+  "snyk": true
 }
