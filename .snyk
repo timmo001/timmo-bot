@@ -1,0 +1,68 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - probot-labeler > probot > hbs > handlebars > async > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
+    - request-info > probot > @octokit/rest > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
+    - probot-autolabeler > probot > github > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
+    - welcome > probot > @octokit/rest > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
+    - probot-stale > probot > @octokit/rest > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
+    - probot-labeler > probot > github > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
+    - probot-settings > probot > @octokit/rest > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
+    - probot-no-response > probot > @octokit/rest > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
+    - unfurl > probot > @octokit/rest > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
+    - potential-duplicates-bot > probot > @octokit/rest > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
+    - probot > hbs > handlebars > async > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
+    - unfurl > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
+    - welcome > new-pr-welcome > probot > @octokit/rest > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
+    - welcome > new-issue-welcome > probot > @octokit/rest > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
+    - welcome > first-pr-merge > probot > @octokit/rest > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
+    - probot-stale > newrelic > async > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
+    - lock-threads > probot > hbs > handlebars > async > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
+    - move-issues > probot > hbs > handlebars > async > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
+    - welcome > probot > hbs > handlebars > async > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
+    - probot-stale > probot > hbs > handlebars > async > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
+    - request-info > probot > hbs > handlebars > async > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
+    - probot-settings > probot > hbs > handlebars > async > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
+    - probot-no-response > probot > hbs > handlebars > async > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
+    - support-requests > probot > hbs > handlebars > async > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
+    - probot-autolabeler > probot > hbs > handlebars > async > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
+    - unfurl > probot > hbs > handlebars > async > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
+    - potential-duplicates-bot > probot > hbs > handlebars > async > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
+    - wip > probot > hbs > handlebars > async > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
+    - welcome > new-pr-welcome > probot > hbs > handlebars > async > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
+    - welcome > first-pr-merge > probot > hbs > handlebars > async > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
+    - welcome > new-issue-welcome > probot > hbs > handlebars > async > lodash:
+        patched: '2019-07-07T12:46:42.629Z'
