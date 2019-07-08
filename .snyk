@@ -66,3 +66,25 @@ patch:
         patched: '2019-07-07T12:46:42.629Z'
     - welcome > new-issue-welcome > probot > hbs > handlebars > async > lodash:
         patched: '2019-07-07T12:46:42.629Z'
+    - snyk > inquirer > lodash:
+        patched: '2019-07-08T18:03:17.174Z'
+    - snyk > lodash:
+        patched: '2019-07-08T18:03:17.174Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2019-07-08T18:03:17.174Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2019-07-08T18:03:17.174Z'
+    - snyk > snyk-config > lodash:
+        patched: '2019-07-08T18:03:17.174Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2019-07-08T18:03:17.174Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2019-07-08T18:03:17.174Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2019-07-08T18:03:17.174Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2019-07-08T18:03:17.174Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2019-07-08T18:03:17.174Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-07-08T18:03:17.174Z'
