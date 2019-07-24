@@ -35,7 +35,7 @@
     "unfurl": "probot/unfurl",
     "welcome": "behaviorbot/welcome",
     "wip": "gr2m/wip-bot",
-    "snyk": "1.192.4"
+    "snyk": "2.0.0"
   },
   "devDependencies": {
     "jest": "24.8.0",
