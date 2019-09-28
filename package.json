@@ -34,7 +34,7 @@
     "support-requests": "dessant/support-requests",
     "unfurl": "probot/unfurl",
     "welcome": "behaviorbot/welcome",
-    "wip": "gr2m/wip-bot",
+    "wip": "1.0.0",
     "snyk": "1.192.4"
   },
   "devDependencies": {
