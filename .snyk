@@ -66,3 +66,34 @@ patch:
         patched: '2019-07-07T12:46:42.629Z'
     - welcome > new-issue-welcome > probot > hbs > handlebars > async > lodash:
         patched: '2019-07-07T12:46:42.629Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - unfurl > probot > @octokit/rest > https-proxy-agent:
+        patched: '2019-10-05T08:41:38.404Z'
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-05T08:41:38.404Z'
+    - probot-no-response > probot > @octokit/rest > https-proxy-agent:
+        patched: '2019-10-05T08:41:38.404Z'
+    - probot-settings > probot > @octokit/rest > https-proxy-agent:
+        patched: '2019-10-05T08:41:38.404Z'
+    - request-info > probot > @octokit/rest > https-proxy-agent:
+        patched: '2019-10-05T08:41:38.404Z'
+    - probot-stale > probot > @octokit/rest > https-proxy-agent:
+        patched: '2019-10-05T08:41:38.404Z'
+    - welcome > probot > @octokit/rest > https-proxy-agent:
+        patched: '2019-10-05T08:41:38.404Z'
+    - probot-stale > newrelic > https-proxy-agent:
+        patched: '2019-10-05T08:41:38.404Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-05T08:41:38.404Z'
+    - potential-duplicates-bot > probot > @octokit/rest > https-proxy-agent:
+        patched: '2019-10-05T08:41:38.404Z'
+    - probot-autolabeler > probot > github > https-proxy-agent:
+        patched: '2019-10-05T08:41:38.404Z'
+    - probot-labeler > probot > github > https-proxy-agent:
+        patched: '2019-10-05T08:41:38.404Z'
+    - welcome > new-pr-welcome > probot > @octokit/rest > https-proxy-agent:
+        patched: '2019-10-05T08:41:38.404Z'
+    - welcome > new-issue-welcome > probot > @octokit/rest > https-proxy-agent:
+        patched: '2019-10-05T08:41:38.404Z'
+    - welcome > first-pr-merge > probot > @octokit/rest > https-proxy-agent:
+        patched: '2019-10-05T08:41:38.404Z'
