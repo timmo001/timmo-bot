@@ -17,7 +17,8 @@
     "start-probot": "probot run",
     "start": "PRIVATE_KEY=$(echo $PRIVATE_KEY | base64 -d) probot run",
     "now-start": "PRIVATE_KEY=$(echo $PRIVATE_KEY_BASE64 | base64 -d) npm start",
-    "snyk-protect": "snyk protect"
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "lock-threads": "dessant/lock-threads",
@@ -35,7 +36,7 @@
     "unfurl": "probot/unfurl",
     "welcome": "behaviorbot/welcome",
     "wip": "gr2m/wip-bot",
-    "snyk": "1.192.4"
+    "snyk": "^1.258.2"
   },
   "devDependencies": {
     "jest": "24.8.0",
