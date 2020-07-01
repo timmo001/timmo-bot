@@ -38,7 +38,7 @@
     "snyk": "1.192.4"
   },
   "devDependencies": {
-    "jest": "24.8.0",
+    "jest": "26.1.0",
     "nodemon": "1.19.1",
     "smee-client": "1.1.0",
     "standard": "12.0.1"
