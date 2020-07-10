@@ -23,7 +23,7 @@
     "lock-threads": "dessant/lock-threads",
     "move-issues": "dessant/move-issues",
     "potential-duplicates-bot": "Bartozzz/potential-duplicates-bot",
-    "probot": "9.2.15",
+    "probot": "9.11.6",
     "probot-autolabeler": "probot/autolabeler",
     "probot-config": "1.1.0",
     "probot-labeler": "probot/autolabeler",
